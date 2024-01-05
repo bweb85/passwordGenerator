@@ -90,23 +90,29 @@ var upperCasedCharacters = [
 
 // Function to prompt user for password options
 function getPasswordOptions() {
-var characters = prompt("How many characters would you like your password to be?")
-}
+var characters = prompt("How many characters would you like your password to be? Choose between 8 and 16"); 
+var specCharac = prompt("How many special characters would you like to use?");
+var numcharac = prompt("How many numerical characters would you like to use?");
+var lowCasCharac = prompt ("How many lower case characters would you like to use?");
+var upcasCharac = prompt ("How many upper case characters would you like to use?");
+};
 
-// Function for getting a random element from an array
+
+
+// TODO: Function for getting a random element from an array
 function getRandom(arr) {
 
 }
 
-// Function to generate password with user input
+// TODO: Function to generate password with user input
 function generatePassword() {
 
 }
 
-// Get references to the #generate element
+// TODO: Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
 
-// Write password to the #password input
+// TODO: Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector('#password');
