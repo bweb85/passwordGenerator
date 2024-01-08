@@ -30,7 +30,7 @@ The application will:
 ## Review
 
 
-* The URL of the deployed application.
+* The URL of the deployed application. https://bweb85.github.io/passwordGenerator/
 
 * The URL of the GitHub repository. https://github.com/bweb85/passwordGenerator
 
